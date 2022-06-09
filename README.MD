@@ -2,6 +2,8 @@ Get The iSH App From https://apps.apple.com/us/app/ish-shell/id1436902243
 ```
 wget https://appinstallerios.com/DebToIPA/deb
 ```
+
+```
 apk add zip
 apk add binutils
 apk add unzip
