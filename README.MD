@@ -14,5 +14,7 @@ apk add bash
 ```
 
 chmod +x deb
-
 mv deb /bin
+
+chmod +x deb
+```
