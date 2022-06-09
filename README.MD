@@ -13,3 +13,8 @@ apk add bash
 chmod +x deb
 mv deb /bin
 ```
+
+Run this command "deb"
+And put the directory of the deb
+Next type in a name for the ipa
+And it's saved you can use the files app to get the IPA
