@@ -6,3 +6,4 @@ apk add p7zip
 wget https://appinstallerios.com/DebToIPA/deb
 chmod +x deb
 mv deb /bin
+echo -e "\e[1;35mInstalled!"
