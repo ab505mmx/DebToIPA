@@ -12,3 +12,4 @@ mv Applications Payload
 zip -r $filename.ipa Payload
 rm aitools -rf
 rm Payload -rf
+echo $filename.ipa Saved!
