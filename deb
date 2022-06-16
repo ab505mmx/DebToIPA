@@ -7,8 +7,10 @@ read -p "File Name (No Spaces): " filename
 mkdir aitools
 7z x $deb 
 mv data.tar aitools
-7z x aitools/data.tar
-mv Applications Payload
+cd aitools
+7z x data.tar
+cd ..
+mv aitools/Applications Payload
 zip -r $filename.ipa Payload
 rm aitools -rf
 rm Payload -rf
